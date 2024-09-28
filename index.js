@@ -49,7 +49,7 @@ $("button").on("click", function (){console.log(this);
 
 playSound(named)
 {
-    var audio = new Audio('/assets/'+named+'.mp3');
+    var audio = new Audio(''+named+'.mp3');
     audio.play()
 }
 
