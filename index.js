@@ -3,7 +3,7 @@ gamePattern= []
 userClickedPattern = []
 var level = 0;
 
-$(document).on("keypress", function (){
+$(document).on("keydown", function (){
     if(level==0)
     {
         nextSequence();
