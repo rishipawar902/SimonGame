@@ -11,6 +11,14 @@ $(document).on("keydown", function (){
 })
 var click = 0;
 
+$("h1").on("click", function (){
+    if(level==0)
+    {
+        nextSequence();
+    }
+})
+var click = 0;
+
 
 function playSound(named)
 {
