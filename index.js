@@ -14,7 +14,7 @@ var click = 0;
 
 function playSound(named)
 {
-    var audio = new Audio('/assets/'+named+'.mp3');
+    var audio = new Audio('/'+named+'.mp3');
     audio.play()
 }
 
